@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="https://www.w3schools.com/action_page.php"
+      method="post"
+      autocapitalize="on"
+    >
+      <label for="fullname">Họ tên: </label>
+      <br />
+      <input type="text" id="fullname" name="full-name" />
+      <br />
+      <label for="email">Email: </label>
+      <br />
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label for="option">Lựa chọn:</label>
+      <select id="option" name="chọn">
+        <option value="yellow">vàng</option>
+        <option value="red">đỏ</option>
+        <option value="orange">cam</option>
+      </select>
+      <br />
+      <br />
+      <label for="date">ngày tháng năm</label>
+      <br />
+      <input type="date" name="ngày" id="date" />
+      <br />
+      <label for="time">Thời gian</label>
+      <br />
+      <input type="time" name="time" id="time" />
+      <br />
+      <p>Những ngôn ngử lập trình bạn đã học</p>
+      <input type="checkbox" name="language" id="language" value="c" />
+      <label for="language">Ngôn ngử c</label>
+      <br />
+      <input type="checkbox" name="language" id="language" value="java" />
+      <label for="language">Ngôn ngử java</label>
+      <br />
+      <p>giới tính</p>
+      <input type="radio" name="gioitinh" id="gioitinh" value="nam" />
+      <label for="gioitinh">Nam</label>
+      <br />
+      <input type="radio" name="gioitinh" id="gioitinh" value="nử" />
+      <label for="gioitinh">Nử</label>
+      <br />
+      <label for="ghichu">Ghi chú:</label>
+      <br />
+      <textarea name="ghi-chú" id="ghichu"></textarea>
+      <br />
+      <br />
+      <input type="submit" value="Gởi" />
+    </form>
+  </body>
+</html>
